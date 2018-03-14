@@ -23,6 +23,11 @@
     </header>
 
     <main role="main">
+
+        <!-- <img class="h-50 w-50 align-middle" src="../images/home_image.png"> -->
+
+
+
         <div id="homeCarousel" class="carousel slide bg-dark" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -30,25 +35,29 @@
                 <li data-target="#homeCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container-fluid">
-                        <img class="d-block h-25 w-75" src="/images/summer_catalog.jpeg" alt="First slide" >
-                        <div class="carousel-caption text-right">
-                            <h1>The Summer Catalog has Arrived!</h1>
-                            <p>example bottom text</p>
+                    <div class="carousel-item active">
+                        <div class="container-fluid" align="center">
+                            <img class="carousel-bg-image-left w-100" src="/images/summer.jpeg" alt="First slide" height="500">
+                            <img class="carousel-fg-image-right" src="/images/summer_catalog.jpeg" alt="First slide" height="500" width="400">
+                            <div class="carousel-caption text-left">
+                                <h1>The Summer Catalog has Arrived!</h1>
+                                <p>example bottom text</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/images/mouserat.png" alt="Second slide" height="500">
-                    <div class="carousel-caption text-right">
+                     <img class="carousel-bg-image-right w-100" src="/images/concert.jpeg" <!-- height="500" -->>
+                    <img class="carousel-fg-image-left w-25" src="/images/mouserat.png" alt="Second slide" height="500">
+                    <div class="carousel-caption-light text-right">
                         <h1>Springtime Concert Series Continues</h1>
                         <p>example bottom text</p>
                     </div>
+                   
+                    
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="/images/zoomural.jpeg" alt="Third slide" height="500" width="">
-                    <div class="carousel-caption text-right">
+                    <div class="carousel-caption-light text-right">
                         <h1>Discover the Spirit of Pawnee</h1>
                         <p>Explore the murals of Pioneer Hall and discover our town's history</p>
                     </div>
@@ -71,7 +80,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="bootstrap.js"></script>
-    <script src="carousel.js"></script>
+    <!-- <script src="carousel.js"></script> -->
 
     <script>
         // Load this when the DOM is ready
