@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Lora:400i');
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Lora', serif;  font-weight: 500;
+  line-height: 1.2;
+  /*color: #5a5a5a;*/
+  text-align:center
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+  font-family: 'Petit Formal Script';
+  text-align:center
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Taviraj', serif;  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888;
+  text-align: left;
+  background-color: #fff;
+}
+
+.h-divider {
+ margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:100%;
+ border-top:1px solid gray;
+}
+
+.v-divider{
+ margin-left:5px;
+ margin-right:5px;
+ width:1px;
+ height:100%;
+ border-left:1px solid gray;
+}
